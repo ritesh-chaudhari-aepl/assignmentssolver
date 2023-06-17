@@ -11,13 +11,13 @@ const Download = () => {
     backgroundPosition: "50%",
     backgroundRepeat: "no-repeat",
     width: "-webkit-fill-available",
-    height: "auto",
+    height: "-webkit-fill-available",
     minInlineSize: "fit-content",
   };
   return (
     <section
       // className="bg-primaryWhite relative overflow-hidden"
-      className="bg-primaryWhite relative"
+      className="bg-primaryWhite block relative"
       aria-label="download feature section"
     >
       <div className="absolute inset-0 w-full overflow-hidden">

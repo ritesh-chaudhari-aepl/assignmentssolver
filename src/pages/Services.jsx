@@ -9,7 +9,7 @@ import VideoCameraFrontOutlinedIcon from "@mui/icons-material/VideoCameraFrontOu
 import DriveFileRenameOutlineOutlinedIcon from "@mui/icons-material/DriveFileRenameOutlineOutlined";
 import ContentPasteSearchOutlinedIcon from "@mui/icons-material/ContentPasteSearchOutlined";
 import MainCard from "@/components/cards/MainCard";
-import user from "@/assets/user.svg"
+import user from "@/assets/user.svg";
 
 const Services = () => {
   const iconstyle = {
@@ -65,7 +65,7 @@ const Services = () => {
             <MainCard
               icon={<ScienceOutlinedIcon />}
               title="Lab work"
-              iconBgColor="#000"
+              // iconBgColor="#000"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
                 quo possimus adipisci distinctio alias voluptatum blanditiis
                 laudantium."

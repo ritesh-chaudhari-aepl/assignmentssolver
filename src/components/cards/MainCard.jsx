@@ -33,7 +33,6 @@ const MainCard = ({ icon, title, description }) => {
     setIsHovered(false);
   };
 
-
   const cardClasses = classNames(
     "flex flex-col items-center cursor-pointer text-center md:block md:text-left rounded-xl shadow-pink-light  border border-pink-500/10 p-8 shadow-md transition mb-4",
     {
@@ -41,11 +40,12 @@ const MainCard = ({ icon, title, description }) => {
     }
   );
 
-  const iconClasses = classNames("rounded-full text-pink-darkPink border-2 w-fit p-4 transition bg-darkBg mb-4", {
-    " text-white bg-pink-darkPink border-pink-darkPink":
-      isHovered,
-  });
-
+  const iconClasses = classNames(
+    "rounded-full text-pink-darkPink border-2 w-fit p-4 transition bg-darkBg mb-4",
+    {
+      " text-white bg-pink-darkPink border-pink-darkPink": isHovered,
+    }
+  );
 
   return (
     <div
