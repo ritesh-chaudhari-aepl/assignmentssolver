@@ -19,7 +19,7 @@ const Services = () => {
   return (
     <div>
       <section id="services" className="bg-darkBg text-white">
-        <div className="mx-auto max-w-screen-x lg:pt-16 md:mt-0 px-4 py-14 sm:py-24 sm:px-16 lg:py-16 ">
+        <div className="mx-auto max-w-screen-x lg:pt-16 md:mt-0 py-14 sm:py-24lg:py-16 ">
           <div className="mx-auto max-w-lg text-center ">
             <div className="flex flex-col items-center">
               <h2 className="text-3xl font-bold mb-2 text-white sm:text-4xl">
@@ -34,75 +34,59 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="mt-12 px-8 lg:px-24 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="mt-12 px-8 lg:px-24 grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-4">
             <MainCard
               icon={<PeopleOutlinedIcon />}
-              title="Online Tutoring"
+              title="Apps for Mobile & Web"
               iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="Our tutors will make very user-friendly and efficient apps, exactly matching your needs. Boost your business now!"
             />
 
             <MainCard
               icon={<AccessTimeOutlinedIcon />}
               title=" 24/7 Support"
               iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="Assignment solvers is focused on ensuring to meet the needs of the students around the globe for their assignments."
             />
 
             <MainCard
               icon={<ImportantDevicesOutlinedIcon />}
               title="live sessions"
               iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="We provide the best solvers for you to interact with in real time to get instant solutions for your problems. Pickup your phone now!"
             />
 
             <MainCard
               icon={<ScienceOutlinedIcon />}
               title="Lab work"
               // iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="PSpice, Orcad, AutoCAD, Solidworks, and many more simulation softwares, our lab solvers can handle them all."
             />
 
             <MainCard
               icon={<DataUsageOutlinedIcon />}
               title="project help"
               iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="Get the most professional project assistance from our PhD solvers who can guide and walk you through your project online."
             />
             <MainCard
               icon={<VideoCameraFrontOutlinedIcon />}
               title="video calling support"
               iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="Real-time tools and rich insights mean our support solution amplifies your team for an unbeatable experience."
             />
 
             <MainCard
               icon={<DriveFileRenameOutlineOutlinedIcon />}
               title="writing help"
               iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="Our native essay solvers help you meet university standards in terms of writing and structuring of academic essays."
             />
             <MainCard
               icon={<ContentPasteSearchOutlinedIcon />}
               title="homework help"
               iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
+              description="Stuck with homework? PhD solvers have a distinctive mode of expression assisting students to solve assignments flawlessly."
             />
           </div>
 

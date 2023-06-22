@@ -43,9 +43,7 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Assignment Solvers is focused on ensuring to meet the needs of the students around the globe for their assignments.
               </p>
             </a>
 
@@ -59,9 +57,7 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                We make sure your work reach you on time because we know if it's not with you on-time, it will be a waste.
               </p>
             </a>
 
@@ -75,9 +71,7 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Our prices are reasonable and pocket-friendly because we understand you better..
               </p>
             </a>
           </div>
@@ -95,9 +89,7 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Get plagiarism free work where each and every assignment is written from scratch to ensure that no content is plagiarized.
               </p>
             </a>
 
@@ -111,9 +103,7 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Your payment is secured by Paypal and Razorpay, upto 100% money back guarantee.
               </p>
             </a>
 
@@ -127,9 +117,7 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                You get 100% customized work as per your requirements, we are always willing to accommodate.
               </p>
             </a>
           </div>

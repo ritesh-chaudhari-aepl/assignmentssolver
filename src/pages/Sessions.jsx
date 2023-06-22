@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const Sessions = () => {
   return (
-    <section className="bg-gradient-to-r from-dark1 to-dark2">
+    <section id="sessions" className="bg-gradient-to-r from-dark1 to-dark2">
       <div className="mx-auto max-w-screen-xl mt-16 sm:mt-0 py-14 sm:py-24">
         <div>
           <div className=" mb-24">

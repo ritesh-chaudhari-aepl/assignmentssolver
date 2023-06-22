@@ -3,7 +3,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Tutorlancer',
+  title: 'Assignment Solver',
   description: 'Solve you homework issues in a minute',
 }
 
@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {/* <Header/> */}
-        <main>{children}</main>
+        <main className='bg-darkBg'>{children}</main>
       </body>
     </html>
     </>

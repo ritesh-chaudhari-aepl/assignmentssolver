@@ -34,7 +34,7 @@ const MainCard = ({ icon, title, description }) => {
   };
 
   const cardClasses = classNames(
-    "flex flex-col items-center cursor-pointer text-center md:block md:text-left rounded-xl shadow-pink-light  border border-pink-500/10 p-8 shadow-md transition mb-4",
+    "flex flex-col items-center cursor-pointer text-center md:block md:text-left rounded-xl shadow-pink-light border border-pink-500/10 p-8 shadow-md transition mb-4",
     {
       "bg-btnColor hover:shadow-pink-hotPink -translate-y-4": isHovered,
     }

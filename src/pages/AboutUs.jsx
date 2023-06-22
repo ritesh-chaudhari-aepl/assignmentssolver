@@ -23,17 +23,18 @@ const AboutUs = () => {
               </h2>
 
               <p className="mt-4 text-white">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                qui hic atque tenetur quis eius quos ea neque sunt, accusantium
-                soluta minus veniam tempora deserunt? Molestiae eius quidem quam
-                repellat.
+                Welcome to "Assignment Solver", your trusted partner in solving
+                academic assignments. We understand the challenges students face
+                when it comes to complex coursework and tight deadlines. That's
+                why we are here to provide you with top-quality assignment
+                assistance, ensuring your academic success.
               </p>
 
               <a
-                href="#"
+                href="#contact"
                 className="mt-8 inline-block rounded-full bg-pink-darkPink px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
               >
-                Read More
+                Know More
               </a>
             </div>
           </div>
