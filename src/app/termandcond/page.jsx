@@ -11,17 +11,19 @@ const Page = () => {
       </a>
       <p className="p-2 font-sans text-base pt-20">
         Please Read These Terms Carefully Before Using our Service. The use of
-        Urdoer.com is only to be undertaken by those of legal age. Any improper
-        usage is strictly prohibited. Once you have placed an order on this
-        website, you have confirmed that you have read, understood, and agreed
-        with all our Terms and Conditions. Submitting a request and/or payment
-        implies that you are legally obligated to abide by these Terms and
-        Conditions.
+        Assignment Solver.com is only to be undertaken by those of legal age.
+        Any improper usage is strictly prohibited. Once you have placed an order
+        on this website, you have confirmed that you have read, understood, and
+        agreed with all our Terms and Conditions. Submitting a request and/or
+        payment implies that you are legally obligated to abide by these Terms
+        and Conditions.
       </p>
       <h1 className="font-bold font-serif text-2xl">
         Interpretation Of Our Terms:
       </h1>
-      <p className="p-2 font-sans text-base">{'"Website"'} means Urdoer.com.</p>
+      <p className="p-2 font-sans text-base">
+        {'"Website"'} means Assignment Solver.com.
+      </p>
       <p className="p-2 font-sans text-base">
         - No permission is granted to anyone to use the content of this site for
         commercial purpose or to modify for any other purpose.
@@ -34,7 +36,7 @@ const Page = () => {
         payments on this website.
       </p>
       <p className="p-2 font-sans text-base">
-        - {'"Company," "We," or "Our"'} refers to Urdoer.com website.
+        - {'"Company," "We," or "Our"'} refers to Assignment Solver.com website.
       </p>
       <p className="p-2 font-sans text-base">
         - Using our questions and answers service to complete tests or homework
@@ -111,15 +113,15 @@ const Page = () => {
 
       <h1 className="font-bold font-serif text-2xl">Entire Agreement</h1>
       <p className="p-2 font-sans text-base">
-        Terms of Service made in the latest agreement between student and Urdoer
-        will supersede and terminate all the prior agreements.
+        Terms of Service made in the latest agreement between student and
+        Assignment Solver will supersede and terminate all the prior agreements.
       </p>
 
       <h1 className="font-bold font-serif text-2xl">Subscription</h1>
       <p className="p-2 font-sans text-base">
         By registering or subscribing to our services. The user accepts to
-        receive the subscription email about theUrdoer.com service updates or
-        any other promotional offers.
+        receive the subscription email about theAssignment Solver.com service
+        updates or any other promotional offers.
       </p>
     </div>
   );
