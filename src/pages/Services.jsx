@@ -20,7 +20,7 @@ const Services = () => {
     <div>
       <section id="services" className="bg-darkBg text-white">
         <div className="mx-auto max-w-screen-x lg:pt-16 md:mt-0 py-14 sm:py-24lg:py-16 ">
-          <div className="mx-auto max-w-lg text-center ">
+          <div className="mx-auto max-w-2xl text-center ">
             <div className="flex flex-col items-center">
               <h2 className="text-3xl font-bold mb-2 text-white sm:text-4xl">
                 Our Services
@@ -28,9 +28,11 @@ const Services = () => {
               <span className="h-[2px] bg-pink-darkPink  w-16 mb-4" />
             </div>
             <p className="mt-4 text-white">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-              fugit consequuntur saepe laborum.
+              Let us take care of your homework needs in the fastest and most
+              efficient way. This way you can spend your study time in actually
+              understanding the concepts and building a strong foundation.
+              Listed below are some key benefits of getting homework guidance
+              from our experts:
             </p>
           </div>
 

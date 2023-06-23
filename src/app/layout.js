@@ -1,5 +1,5 @@
-// import Header from '@/pages/header'
-// import Header from '@/components/header/Header'
+import Footer from '@/pages/Footer'
+import Header from '@/components/header/Header'
 import './globals.css'
 
 export const metadata = {
@@ -12,8 +12,9 @@ export default function RootLayout({ children }) {
     <>
     <html lang="en">
       <body>
-        {/* <Header/> */}
+        <Header/>
         <main className='bg-darkBg'>{children}</main>
+        <Footer />
       </body>
     </html>
     </>
