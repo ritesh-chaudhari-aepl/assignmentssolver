@@ -18,7 +18,7 @@ export default function Page() {
   return (
     <>
       {/* <div className='mt-24 lg:mt-24 md:mt-26'> */}
-      {/* <Header/> */}
+      <Header/>
         <HeroSection/>
         <Services />
         <AboutUs />
