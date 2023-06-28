@@ -1,27 +1,34 @@
 import Image from "next/image";
 import phone from "../assets/phone.gif";
+import logo from "../assets/logo9.png";
 
 const Footer = () => {
   return (
     <footer aria-label="Site Footer" className="bg-darkBg text-white">
       <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8">
-        <div className="flex flex-col gap items-center lg:flex-row lg:gap-28">
+        <div className="flex sm:items-center sm:text-center md:items-start md:text-left flex-col gap lg:flex-row lg:gap-28">
           <div className="flex flex-col basis-1/2 ">
-            <div className="flex justify-center text-white sm:justify-start">
-              <span className="text-[25px] tracking-[10px] border border-white p-2">
+            <div className="flex justify-center text-black sm:justify-start">
+              {/* <span className="text-[25px] tracking-[10px] border border-white p-2">
                 LOGO
-              </span>
+              </span> */}
+              <Image src={logo} className="w-32" alt="logo" />
             </div>
-            <div className="flex flex-col mt-10 gap-2 leading-[30px] ">
+            <div className="flex flex-col md:items-start items-center text-justify mt-10 gap-2 leading-[30px] ">
               <p>
-                Tutorlancer is an online platform that connects online tutors
-                with students across the globe who seeks academic help.
+                Welcome to "Assignment Solver," your trusted partner in solving
+                academic assignments. We understand the challenges students face
+                when it comes to complex coursework and tight deadlines.
               </p>
               <span className="font-inter">
-                <strong>Email</strong>: support@thetutorlancer.com
+                <strong>Email</strong>:{" "}
+                <a href="mailto:tutorpointep@gmail.com">
+                  tutorpointep@gmail.com
+                </a>
               </span>
               <span className="font-inter">
-                <strong>Phone</strong>: +91 628940944
+                <strong>Phone</strong>:{" "}
+                <a href="tel:+917050117978">+91 70501-17978</a>
               </span>
               {/* <span className="font-inter capitalize text-base">
                 <strong>Address</strong>: c/o -s.k.mishra, c.m.r.i <br />
@@ -95,7 +102,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex basis-1/4 flex-col mt-10 grid-cols-3 gap-2 sm:grid-cols-2 md:grid-cols-2 lg:col-span-2 relative">
+          <div className="flex basis-1/4 xl:self-end flex-col mt-10 grid-cols-3 gap-2 sm:grid-cols-2 md:grid-cols-2 lg:col-span-2 relative">
             <div className="text-center sm:text-left">
               <span className="font-inter capitalize text-base">
                 <strong>Address</strong>: c/o -s.k.mishra, c.m.r.i <br />
@@ -150,8 +157,8 @@ const Footer = () => {
           </div>
 
           <p className="mt-4 text-[10px] sm:text-sm text-white sm:order-first sm:mt-0">
-            © 2022 thetutorlancer.com. All rights reserved Abhay Education Pvt.
-            Ltd.
+            © 2022 assignmentsolver.com. All rights reserved Abhay Education
+            Pvt. Ltd.
           </p>
         </div>
       </div>
