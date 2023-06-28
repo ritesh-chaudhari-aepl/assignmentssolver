@@ -1,5 +1,56 @@
+"use client";
 import "./style.css";
+import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import { useState } from "react";
+import { Subject } from "@mui/icons-material";
+
 const Contact = () => {
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [phone, setPhone] = useState();
+  const [subject, setSubject] = useState();
+  const [message, setMessage] = useState();
+
+  const showToastMessage = async () => {
+    const data = {
+      device_number: "Device 9",
+      name,
+      email,
+      phone,
+      subject,
+      message,
+    };
+
+    if (!name || !email || !phone || !subject || !message) {
+      toast.warning("Please fill all the required data.", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+      return;
+    }
+
+    const sendData = await axios.post(
+      "https://dev6apis.el.r.appspot.com/api/deviceWeb/saveDeviceWebData",
+      data
+    );
+    console.log(sendData.data.success);
+    if (sendData.data.success) {
+      toast.success("Message Sent Successfully", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+
+      setName("");
+      setEmail("");
+      setPhone("");
+      setSubject("");
+      setMessage("");
+    } else {
+      toast.error("Something went wrong, try again", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+    }
+  };
+
   return (
     <section id="contact" className="bg-gradient-to-r from-dark1 to-dark2">
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
@@ -11,12 +62,15 @@ const Contact = () => {
         </div>
         <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
           <div className=" p-8 lg:col-span-3 lg:p-12">
-            <form action="" className="space-y-4">
+            <form action="" onSubmit={showToastMessage} className="space-y-4">
               <div className="flex flex-row gap-4">
                 <label className="sr-only text-white" htmlFor="name">
                   Name
                 </label>
                 <input
+                  required
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   className="w-full rounded-lg bg-darkBg text-white placeholder-white border-pink-pinkLight border-2 p-3 text-sm"
                   placeholder="Name"
                   type="text"
@@ -26,6 +80,9 @@ const Contact = () => {
                   Email
                 </label>
                 <input
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   className="w-full rounded-lg bg-darkBg text-white placeholder-white border-pink-pinkLight border-2 p-3 text-sm"
                   placeholder="Email address"
                   type="email"
@@ -33,10 +90,13 @@ const Contact = () => {
                 />
               </div>
 
-              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                {/* <div>
+              {/* <div className="grid grid-cols-1 gap-4 sm:grid-cols-2"> */}
+              {/* <div>
               <label className="sr-only text-white" htmlFor="email">Email</label>
               <input
+              required
+              value={name}
+              onChange={(e)=>set(e.target.value)}
                 className="w-full rounded-lg bg-darkBg text-white placeholder-white border-pink-pinkLight border-2 p-3 text-sm"
                 placeholder="Email address"
                 type="email"
@@ -44,18 +104,33 @@ const Contact = () => {
               />
             </div> */}
 
-                <div>
-                  <label className="sr-only text-white" htmlFor="phone">
-                    Subject
-                  </label>
-                  <input
-                    className="w-full rounded-lg bg-darkBg text-white placeholder-white border-pink-pinkLight border-2 p-3 text-sm"
-                    placeholder="Subject"
-                    type="text"
-                    id="subject"
-                  />
-                </div>
+              <div className="flex flex-row gap-4">
+                <label className="sr-only text-white" htmlFor="phone">
+                  Phone
+                </label>
+                <input
+                  required
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  className="w-full rounded-lg bg-darkBg text-white placeholder-white border-pink-pinkLight border-2 p-3 text-sm"
+                  placeholder="Phone Number"
+                  type="text"
+                  id="phone"
+                />
+                <label className="sr-only text-white" htmlFor="phone">
+                  Subject
+                </label>
+                <input
+                  required
+                  value={subject}
+                  onChange={(e) => setSubject(e.target.value)}
+                  className="w-full rounded-lg bg-darkBg text-white placeholder-white border-pink-pinkLight border-2 p-3 text-sm"
+                  placeholder="Subject"
+                  type="text"
+                  id="subject"
+                />
               </div>
+              {/* </div> */}
 
               <div>
                 <label className="sr-only text-white" htmlFor="message">
@@ -63,6 +138,9 @@ const Contact = () => {
                 </label>
 
                 <textarea
+                  required
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   className="w-full rounded-lg bg-darkBg text-white placeholder-white border-pink-pinkLight border-2 p-3 text-sm"
                   placeholder="Message"
                   rows="8"
@@ -77,6 +155,7 @@ const Contact = () => {
                 >
                   Send Message
                 </button>
+                <ToastContainer />
               </div>
             </form>
           </div>

@@ -31,8 +31,8 @@ module.exports = {
           dark:'#FB6238',
         },
         blue: {
-          main: "#0166FF",
-          darkBlue: "#525FE1",
+          main: "#d0e6f1",
+          darkBlue: "#124d73",
           slateBlue: "#3D81C2",
           light: "#0166FF",
           text:'#5360E2',

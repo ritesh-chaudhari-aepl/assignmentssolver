@@ -16,10 +16,11 @@ const HeroSection = () => {
     backgroundSize: "contain",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    // height: "100vh",
+    height: "-webkit-fill-available",
+    width: "-webkit-fill-available",
   };
   return (
-    <div>
+    <div className="pt-28 md:pt-32 lg:pt-16">
       <section className="relative bg-darkBg bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0">
           <Image src={bgbanner} alt="background image" style={banner} />
@@ -28,28 +29,28 @@ const HeroSection = () => {
 
         <div className="relative mx-auto max-w-screen-xl px-4 py-2 sm:px-6 md:flex h-auto lg:items-center justify-between lg:px-8">
           <div className="md:w-1/2 w-full text-center sm:text-left">
-            <h1 class="text-3xl text-white font-QuickSand font-extrabold lg:text-5xl">
-              Let us find your
+            <h1 class="text-3xl text-white font-QuickSand font-extrabold xl:text-5xl">
+              Solving your academic challenges, one assignment at a time
               <strong class="mt-3 block font-QuickSand font-extrabold text-pink-darkPink">
-                Forever Tutor.
+                Assignment Solver
               </strong>
             </h1>
 
             <p class="mt-5 text-white font-OpenSans max-w-lg sm:text-l/relaxed">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-              illo tenetur fuga ducimus numquam ea!
+              Welcome to Assignment Solver, your trusted partner in solving
+              academic assignments. 
             </p>
 
             <div class="mt-8 flex flex-wrap gap-4 text-center">
               <a
-                href="#"
+                href="#contact"
                 class="block w-full rounded-full bg-pink-darkPink px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
               >
                 Get Started
               </a>
 
               <a
-                href="#contact"
+                href="#sessions"
                 class="block w-full rounded-full bg-gray-100 px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
               >
                 Learn More

@@ -27,10 +27,10 @@ const Testimonials = () => {
             {/* <BiSolidQuoteAltLeft className="text-pink-pinkLight" /> */}
             <div className="font-sans text-white">
               {" "}
-              Tutorlancer has helped me not only understand the subject but
-              master the answering techniques required to obtain a istinction.
-              the material is not only well compiled and organies but helps
-              immensely with revision.{" "}
+              Assignment Solver has helped me not only understand the subject
+              but master the answering techniques required to obtain a
+              istinction. the material is not only well compiled and organies
+              but helps immensely with revision.{" "}
             </div>
             <div className="font-serif pt-3 text-xl font-bold text-white">
               Jhon Dev

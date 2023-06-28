@@ -17,7 +17,7 @@ const Features = () => {
   return (
     <section id="features" className="bg-darkBg text-white">
       <div className="mx-auto max-w-screen-x  lg:mt-0 md:mt-0 px-4 py-14 sm:py-22 sm:px-6 lg:py-16 lg:px-8">
-        <div className="mx-auto max-w-lg text-center">
+        <div className="mx-auto max-w-2xl text-center">
           <div className="flex flex-col items-center">
             <h2 className="text-3xl font-bold mb-2 text-white sm:text-4xl">
               Features
@@ -25,9 +25,11 @@ const Features = () => {
             <span className="h-[2px] bg-pink-darkPink  w-16 mb-4" />
           </div>
           <p className="mt-4 text-white">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-            fugit consequuntur saepe laborum.
+            Assignment Solver is dedicated to offering the best academic help to
+            students. Over the years, Assignment Solver has grown in popularity
+            as a trusted name in online homework help among students from around
+            the globe. Here are some salient features of the services offered by
+            Assignment Solver.
           </p>
         </div>
 
@@ -43,9 +45,8 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Assignment Solvers is focused on ensuring to meet the needs of
+                the students around the globe for their assignments.
               </p>
             </a>
 
@@ -59,9 +60,8 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                We make sure your work reach you on time because we know if it's
+                not with you on-time, it will be a waste.
               </p>
             </a>
 
@@ -75,9 +75,8 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Our prices are reasonable and pocket-friendly because we
+                understand you better..
               </p>
             </a>
           </div>
@@ -95,9 +94,8 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Get plagiarism free work where each and every assignment is
+                written from scratch to ensure that no content is plagiarized.
               </p>
             </a>
 
@@ -111,9 +109,8 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Your payment is secured by Paypal and Razorpay, upto 100% money
+                back guarantee.
               </p>
             </a>
 
@@ -127,9 +124,8 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                You get 100% customized work as per your requirements, we are
+                always willing to accommodate.
               </p>
             </a>
           </div>
