@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col md:items-start items-center text-justify mt-10 gap-2 leading-[30px] ">
               <p>
-                Welcome to "Assignment Solver," your trusted partner in solving
+                Welcome to {"Assignment Solver,"} your trusted partner in solving
                 academic assignments. We understand the challenges students face
                 when it comes to complex coursework and tight deadlines.
               </p>

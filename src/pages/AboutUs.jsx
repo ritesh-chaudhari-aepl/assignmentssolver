@@ -23,9 +23,9 @@ const AboutUs = () => {
               </h2>
 
               <p className="mt-4 text-white">
-                Welcome to "Assignment Solver", your trusted partner in solving
+                Welcome to {"Assignment Solver"}, your trusted partner in solving
                 academic assignments. We understand the challenges students face
-                when it comes to complex coursework and tight deadlines. That's
+                when it comes to complex coursework and tight deadlines. That&apos;s
                 why we are here to provide you with top-quality assignment
                 assistance, ensuring your academic success.
               </p>

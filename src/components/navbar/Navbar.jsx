@@ -1,4 +1,4 @@
-import { nav } from "../../../data/nav";
+import { nav } from "../../data/nav";
 
 function Navbar() {
   function handleScroll(section) {

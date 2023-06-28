@@ -35,7 +35,7 @@ const Features = () => {
 
         <div className="mt-12 items-center grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3 ">
           <div className="flex flex-col gap-4">
-            <a className="text-center items-center flex flex-col md:items-end rounded-xl border text-right border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+            <a className="text-center items-center flex flex-col md:items-end rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
               <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
                 <HeadphonesOutlinedIcon style={iconstyle} />
               </div>
@@ -50,7 +50,7 @@ const Features = () => {
               </p>
             </a>
 
-            <a className="text-center items-center flex flex-col md:items-end rounded-xl border text-right border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+            <a className="text-center items-center flex flex-col md:items-end rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
               <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
                 <AccessAlarmIcon style={iconstyle} />
               </div>
@@ -60,12 +60,12 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-white">
-                We make sure your work reach you on time because we know if it's
+                We make sure your work reach you on time because we know if it&apos;s
                 not with you on-time, it will be a waste.
               </p>
             </a>
 
-            <a className="text-center items-center flex flex-col md:items-end rounded-xl border text-right border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+            <a className="text-center items-center flex flex-col md:items-end rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
               <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
                 <SellIcon style={iconstyle} />
               </div>
@@ -81,7 +81,7 @@ const Features = () => {
             </a>
           </div>
           <div>
-            <Image src={feature}></Image>
+            <Image src={feature} alt='feature' />
           </div>
           <div className="flex flex-col gap-4">
             <a className="text-center items-center flex flex-col rounded-xl border md:text-left md:items-start border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">

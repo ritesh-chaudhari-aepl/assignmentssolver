@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react";
 import { HiOutlineX } from "react-icons/hi";
 import { AiOutlineMenu } from "react-icons/ai";
-import Nav from "./navbar/Navbar";
-import MobileNav from "./navbar/MobileNav";
+import Nav from "../navbar/Navbar";
+import MobileNav from "../navbar/MobileNav";
 import { BsWhatsapp } from "react-icons/bs";
 import logo from "../../assets/logo9.png";
 import Image from "next/image";
